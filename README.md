@@ -9,7 +9,10 @@ Eases downgrading packages in Arch Linux.
 
 ## Installation
 
-Install via the [AUR](https://aur.archlinux.org/packages/downgrade/).
+Install via the RebornOS repo.
+```
+sudo pacman -S RebornOS/downgrade
+```
 
 ## Usage
 
@@ -32,7 +35,7 @@ Options:
   --maxdepth      <integer>
                   maximum depth to search for cached packages, defaults to 1
   --ala-url       <url>
-                  location of ALA server, defaults to "https://archive.archlinux.org"
+                  location of ALA server, defaults to "http://tardis.tiny-vps.com"
   --ala-only      only use ALA server
   --cached-only   only use cached packages
   --version       show downgrade version
