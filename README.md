@@ -35,7 +35,7 @@ Options:
   --maxdepth      <integer>
                   maximum depth to search for cached packages, defaults to 1
   --ala-url       <url>
-                  location of ALA server, defaults to "http://tardis.tiny-vps.com"
+                  location of ALA server, defaults to "http://tardis.tiny-vps.com/aarm/"
   --ala-only      only use ALA server
   --cached-only   only use cached packages
   --version       show downgrade version

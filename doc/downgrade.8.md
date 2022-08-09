@@ -77,7 +77,7 @@ on the ALA.
 
 **\--ala-url** _\<url\>_\
 
-> Location of an ALA server, default is *http://tardis.tiny-vps.com*.
+> Location of an ALA server, default is *http://tardis.tiny-vps.com/aarm/*.
 
 **\--ala-only**\
 

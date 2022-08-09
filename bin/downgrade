@@ -22,7 +22,7 @@ $(gettext "Options"):
   --maxdepth      <$(gettext "integer")>
                   $(gettext "maximum depth to search for cached packages, defaults to") 1
   --ala-url       <url>
-                  $(gettext "location of ALA server, defaults to") "http://tardis.tiny-vps.com"
+                  $(gettext "location of ALA server, defaults to") "http://tardis.tiny-vps.com/aarm/"
   --ala-only      $(gettext "only use ALA server")
   --cached-only   $(gettext "only use cached packages")
   --version       $(gettext "show downgrade version")
@@ -462,7 +462,7 @@ cli() {
 PACMAN="pacman"
 PACMAN_CONF="/etc/pacman.conf"
 DOWNGRADE_ARCH="$(pacman-conf Architecture | head -n 1)"
-DOWNGRADE_ALA_URL="http://tardis.tiny-vps.com"
+DOWNGRADE_ALA_URL="http://tardis.tiny-vps.com/aarm/"
 DOWNGRADE_FROM_ALA=1
 DOWNGRADE_FROM_CACHE=1
 DOWNGRADE_MAXDEPTH=1
